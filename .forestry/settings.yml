@@ -23,8 +23,6 @@ sections:
   label: Config
 - type: heading
   label: Data Center
-- type: heading
-  label: Security
 - type: jekyll-pages
   label: Data Center
   create: all
@@ -32,6 +30,8 @@ sections:
   - 2-column-text
   - 2-column-media-element
   - navigation-header-w-button
+- type: heading
+  label: Security
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
