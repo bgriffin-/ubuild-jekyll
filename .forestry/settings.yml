@@ -4,6 +4,15 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Data Center
+  create: all
+  match: "**/*"
+  templates:
+  - 2-column-media-element
+  - navigation-header-w-button
+- type: heading
+  label: Security
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
