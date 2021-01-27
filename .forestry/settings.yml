@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: Data Center
   create: all
-  match: "**/*"
   templates:
   - 2-column-media-element
   - navigation-header-w-button
